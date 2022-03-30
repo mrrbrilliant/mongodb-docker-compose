@@ -7,5 +7,5 @@ Sample for creating MongoDB container with docker-compose
 cp sample.env .env
 # edit the dotenv file
 # start your database
-docker-compose up -d
+./setup.sh
 ```
